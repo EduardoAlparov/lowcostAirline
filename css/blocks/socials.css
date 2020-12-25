@@ -1,0 +1,68 @@
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: -11px;
+}  
+
+.socials--reviews {
+  align-items: center;
+  margin-right: -8px;
+}
+
+
+
+.socials__title{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.socials__list{
+  display: flex;
+  align-items: center;
+  
+ }
+
+ .tariffs__item  .socials__list { 
+  justify-content: center;
+ }
+
+
+.socials__item{
+  text-align: left;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  position: relative;
+  margin-right: 10px;
+}
+
+.socials__item:last-child{
+  margin-right: 0;
+}
+
+.socials__link{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d4ddf2;
+}
+
+.socials__link:hover{
+  background-color: #fff;
+}
+
+ .socials__icon{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+ }
+
+ .socials--crew {
+  margin-right: -21px;
+}
+ }

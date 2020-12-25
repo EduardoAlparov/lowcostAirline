@@ -1,0 +1,130 @@
+.main{
+  margin-top: 23px;
+}
+.main__menu{
+  width: 22%;
+  margin-right: 30px;
+}
+
+.main .container{
+  display: flex;
+}
+
+.main__content{
+  flex: 1;
+  margin-bottom: 61px;
+}
+
+
+.menu__item{
+  margin-bottom: 20px;
+ 
+}
+
+.menu__item:last-child{
+  margin-bottom: 0;
+}
+
+.menu__icon{
+  padding-right: 10px;
+}
+
+.menu__title{
+  vertical-align: super;
+}
+
+.menu__link{  
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #5973b1;
+  text-decoration: none;
+}
+
+.menu__link:hover{
+  color: black;
+}
+
+.menu__link:before{
+  content: '';
+  display: inline-block;
+  height: 18px;
+  width: 23px;
+  margin-right: 10px;
+  background: left center / contain no-repeat;
+
+} 
+
+.menu__item--icon--main .menu__link:before{
+  background-image: url('../../img/icon/mainblue.png');
+}
+
+.menu__item--icon--main .menu__link:hover:before{
+  background-image: url('../../img/icon/main.png');
+}
+
+.menu__item--icon--feed .menu__link:before{
+  background-image: url('../../img/icon/feed.png');
+}
+
+.menu__item--icon--feed .menu__link:hover:before{
+  background-image: url('../../img/icon/feedblack.png');
+}
+
+.menu__item--icon--crew .menu__link:before{
+  background-image: url('../../img/icon/team.png');
+}
+
+.menu__item--icon--crew .menu__link:hover:before{
+  background-image: url('../../img/icon/blackteam.png');
+}
+
+.menu__link--active__link .menu__link{
+  color: black;
+}
+
+.menu__link--active__link.menu__item--icon--main .menu__link:before{
+  background-image: url('../../img/icon/main.png');
+} 
+
+.menu__link--active__link.menu__item--icon--feed .menu__link:before{
+  background-image: url('../../img/icon/feedblack.png');
+}
+
+.menu__link--active__link.menu__item--icon--crew .menu__link:before{
+  background-image: url('../../img/icon/blackteam.png');
+}
+
+.menu--horizontal{
+  margin-bottom: 8px;
+} 
+
+.menu--horizontal .menu__list {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+
+}
+
+.menu--horizontal .menu__item {
+  margin-bottom: 0;
+  margin-right: 93px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

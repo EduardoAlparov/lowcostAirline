@@ -1,0 +1,38 @@
+
+.footer{
+  background: #5973b1;
+  padding: 2px 0;
+  color: #fff;
+  margin-top: 2px;
+}
+
+.footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text{
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  line-height: 18px;
+  padding: 20px 0;
+  width: 25%;
+}
+
+.footer__socials{
+  text-align: right;
+  vertical-align: sub;
+}
+
+.footer__logo{
+  text-align: center;
+  margin-right: 41px;
+}
+
+
+
+.footer__loft {
+  color: #fff;
+  font-weight: bold;
+}
